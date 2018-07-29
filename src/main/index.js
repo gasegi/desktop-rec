@@ -1,4 +1,5 @@
 import { app, BrowserWindow } from 'electron'
+// import Recorder from './lib/recorder'
 
 /**
  * Set `__static` path to static files in production
@@ -13,14 +14,14 @@ const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
   : `file://${__dirname}/index.html`
 
-function createWindow () {
+function createWindow() {
   /**
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 563,
+    width: 320,
+    height: 240,
     useContentSize: true,
-    width: 1000
   })
 
   mainWindow.loadURL(winURL)
@@ -43,3 +44,4 @@ app.on('activate', () => {
     createWindow()
   }
 })
+

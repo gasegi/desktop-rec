@@ -1,10 +1,10 @@
 {
   "name": "desktop-rec",
   "productName": "desktop-rec",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "gasegi <1353377@gmail.com>",
-  "description": "An electron-vue project",
-  "license": null,
+  "description": "Desktop recording application using electron-vue",
+  "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js",

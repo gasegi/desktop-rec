@@ -1,6 +1,8 @@
 # desktop-rec
 
-> An electron-vue project
+> Desktop recording application using electron-vue.
+
+![screenshot.png](screenshot.png)
 
 #### Build Setup
 
